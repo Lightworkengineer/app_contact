@@ -16,11 +16,11 @@
         <div>
             <div>
                 <label>お名前<span>必須</span></label>
-                <input type="text" name="name" placeholder="例）山田太郎" value="">
+                <input type="text" name="name" placeholder="例）田中次郎" value="">
             </div>
             <div>
                 <label>ふりがな<span>必須</span></label>
-                <input type="text" name="furigana" placeholder="例）やまだたろう" value="">
+                <input type="text" name="furigana" placeholder="例）タナカジロウ" value="">
             </div>
             <div>
                 <label>メールアドレス<span>必須</span></label>
