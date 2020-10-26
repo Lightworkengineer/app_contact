@@ -15,28 +15,28 @@
         <p>お問い合わせ内容をご入力の上、「確認画面へ」ボタンをクリックしてください。</p>
         <div>
             <div>
-                <label>お名前<span>必須</span></label>
+                <label>お名前</label>
                 <input type="text" name="name" placeholder="例）田中次郎" value="">
             </div>
             <div>
-                <label>ふりがな<span>必須</span></label>
+                <label>ふりがな</label>
                 <input type="text" name="furigana" placeholder="例）タナカジロウ" value="">
             </div>
             <div>
-                <label>メールアドレス<span>必須</span></label>
+                <label>メールアドレス</label>
                 <input type="text" name="email" placeholder="例）guest@example.com" value="">
             </div>
             <div>
-                <label>電話番号<span>必須</span></label>
+                <label>電話番号</label>
                 <input type="text" name="tel" placeholder="例）0000000000" value="">
             </div>
             <div>
-                <label>性別<span>必須</span></label>
+                <label>性別</label>
                 <input type="radio" name="sex" value="男性" checked> 男性
                 <input type="radio" name="sex" value="女性"> 女性
             </div>
             <div>
-                <label>お問い合わせ項目<span>必須</span></label>
+                <label>お問い合わせ項目</label>
                 <select name="item">
                     <option value="">お問い合わせ項目を選択してください</option>
                     <option value="ご質問・お問い合わせ">ご質問・お問い合わせ</option>
@@ -44,7 +44,7 @@
                 </select>
             </div>
             <div>
-                <label>お問い合わせ内容<span>必須</span></label>
+                <label>お問い合わせ内容</label>
                 <textarea name="content" rows="5" placeholder="お問合せ内容を入力"></textarea>
             </div>
         </div>
