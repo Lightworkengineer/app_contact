@@ -13,63 +13,9 @@
 
     // もしお問い合わせ内容確認画面の送信ボタンが押されたら
     if (isset($_POST["submit"])) {
-        // メールで送る言語を日本語に設定（メールの文字化けを防ぐ）
-        mb_language("ja");
-        mb_internal_encoding("UTF-8");
         
-        //mb_send_mail("kanda.it.school.trial@gmail.com", "メール送信テスト", "メール本文");
-
-            // 件名を変数subjectに格納
-            $subject = "［自動送信］お問い合わせ内容の確認";
-            // メール本文を変数bodyに格納（長い文字列の代入）
-        $body = <<< EOM
-{$name}　様
-
-お問い合わせありがとうございます。
-以下のお問い合わせ内容を、メールにて確認させていただきました。
-
-===================================================
-【 お名前 】 
-{$name}
-
-【 ふりがな 】 
-{$furigana}
-
-【 メール 】 
-{$email}
-
-【 電話番号 】 
-{$tel}
-
-【 性別 】 
-{$sex}
-
-【 項目 】 
-{$item}
-
-【 内容 】 
-{$content}
-===================================================
-
-内容を確認のうえ、回答させて頂きます。
-しばらくお待ちください。
-EOM;
-        
-        // 送信元のメールアドレスを変数fromEmailに格納
-        $fromEmail = "info.techquest0706@gmail.com";
-
-        // 送信元の名前を変数fromNameに格納
-        $fromName = "お問い合わせテスト";
-
-        // ヘッダ情報を変数headerに格納する      
-        $header = "From: " .mb_encode_mimeheader($fromName) ."<{$fromEmail}>";
-
-        // メール送信を行う
-        mb_send_mail($email, $subject, $body, $header);
-        // var_dump("12345");
-        //     die;
         // サンクスページに画面遷移させる
-        header("Location: https://86228be206a8492888429ef88e6bf669.vfs.cloud9.us-east-2.amazonaws.com/app_contact/thanks.php");
+        header("Location: https://b6ede25d51ed4841ab59d0f1def4cb10.vfs.cloud9.us-east-2.amazonaws.com/app_contact/thanks.php");
         exit;
     }
 ?>
