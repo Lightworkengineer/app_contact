@@ -15,7 +15,7 @@
     if (isset($_POST["submit"])) {
         
         // サンクスページに画面遷移させる
-        header("Location: https://b6ede25d51ed4841ab59d0f1def4cb10.vfs.cloud9.us-east-2.amazonaws.com/app_contact/thanks.php");
+        header("Location: https://d9a319e1f4664f989583b8e9d2f8f18e.vfs.cloud9.us-east-2.amazonaws.com/app_contact/thanks.php");
         exit;
     }
 ?>

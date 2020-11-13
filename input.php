@@ -24,11 +24,11 @@
             </div>
             <div>
                 <label>メールアドレス</label>
-                <input type="text" name="email" placeholder="例）guest@example.com" value="">
+                <input type="email" name="email" placeholder="例）guest@example.com" value="">
             </div>
             <div>
                 <label>電話番号</label>
-                <input type="text" name="tel" placeholder="例）0000000000" value="">
+                <input type="number" name="tel" placeholder="例）0000000000" value="">
             </div>
             <div>
                 <label>性別</label>
